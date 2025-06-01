@@ -10,6 +10,17 @@ body {
     overflow: hidden;
 }
 
+#image {
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
+    width: fit-content;
+    bottom: 17vh;
+    z-index: -1;
+    border-radius: 10px;
+}
+
 .game-container {
     padding: 30px;
     border-radius: 15px;
