@@ -274,7 +274,7 @@ const scenes = {
                 condition: () => countCoins() < 3,
                 action: () => { 
                     showText(`You are too poor :( You need ${3 - countCoins()} more coins!`);
-                    action: () => goToScene('TOO_POOR_ENDING')
+                    goToScene('TOO_POOR_ENDING')
                 } 
             },
             { 

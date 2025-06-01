@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', monospace;
-    background-image: url("/static/images/background.png");
+    background-image: url("static/images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
