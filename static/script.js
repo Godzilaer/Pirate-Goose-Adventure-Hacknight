@@ -418,7 +418,7 @@ function goToScene(sceneName) {
         setTimeout(() => {
             logic()
             gameState.textShown = false;
-        }, 4000)
+        }, 3250)
     } else {
         logic()
     }
