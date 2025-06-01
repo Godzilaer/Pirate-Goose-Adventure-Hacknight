@@ -12,7 +12,7 @@ let gameState = {
 const scenes = {
     INTRO: {
         text: "Welcome to the Pirate Goose Adventure! You are a brave goose who has found yourself aboard a pirate ship in the middle of the vast ocean.",
-        inputPrompt: "What is your goose name, brave feathered one?",
+        inputPrompt: "What is your goose name?",
         onInput: (input) => {
             gameState.playerName = input;
             goToScene('OPENING_SCENE');
