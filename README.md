@@ -1,4 +1,3 @@
-# hacknight
+# Pirate Goose Adventure - A Hacknight Creation
 
-Bombini Gusini is in our game its about drive its
-chimpanzini bananini wa wa wa monke monke monke
+Creators: Vivan Jaiswal, Ethan Filip, Neev Lodha, Yeonjun Lee
