@@ -483,6 +483,7 @@ function renderScene() {
 
     // Handle choices
     if (scene.choices) {
+        scene.choices = scene.choices.sort(() => Math.random() - 0.5);
         scene.choices.forEach(choice => {
             const button = document.createElement('button');
             button.className = 'choice-btn';
